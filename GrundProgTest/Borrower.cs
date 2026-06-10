@@ -6,5 +6,5 @@ public class Borrower(int borrowerNum, string libraryName, string name, string e
     public int BorrowerNum { get; } = borrowerNum;
     public string LibraryName { get; } = libraryName;
     
-    public string GetBorrower() => $"{Name};{Email};{Phone};{BorrowerNum};{LibraryName}";
+    public string GetBorrower() => $"Name: {Name}\nEmail: {Email}\nPhone: {Phone}\nBorrower num: {BorrowerNum}\nLibrary name: {LibraryName}";
 }
